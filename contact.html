@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Page</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"
+          ><img src="Images/blog-ogo.png" alt="logo" width="400rem"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a
+                class="nav-link active"
+                aria-current="page"
+                style="
+                  color: #005e76;
+                  font-size: 1.2rem;
+                  margin-right: 2rem;
+                  margin-left: 1rem;
+                "
+                href="index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                style="
+                  color: #005e76;
+                  font-size: 1.2rem;
+                  margin-right: 2rem;
+                  margin-left: 1rem;
+                "
+                href="about.html"
+                >About Me</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                style="
+                  color: #005e76;
+                  font-size: 1.2rem;
+                  margin-right: 2rem;
+                  margin-left: 1rem;
+                "
+                href="contact.html"
+                >Contact Me</a
+              >
+            </li>
+
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                style="
+                  color: #005e76;
+                  font-size: 1.2rem;
+                  margin-right: 2rem;
+                  margin-left: 1rem;
+                "
+                href="b-preview.html"
+                >Blog Posts</a
+              >
+            </li>
+
+            <li id="login-btn">
+              <a href="login.html"> <button>Login</button></a>
+            </li>
+
+            <li id="signin-btn">
+              <a href="signup.html"> <button>Sign Up</button></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <h3>Get In Touch</h3>
+
+    <form class="contact-form">
+      <div class="row mb-3" style="margin-top: 2rem; margin-left: 1rem">
+        <label for="inputText3" class="col-sm-2 col-form-label" id="inp-label"
+          >Name</label
+        >
+        <div class="col-sm-10">
+          <input type="text" class="form-control" id="inputText3" />
+        </div>
+      </div>
+
+      <div class="row mb-3" style="margin-left: 1rem">
+        <label for="inputEmail3" class="col-sm-2 col-form-label" id="inp-label"
+          >Email</label
+        >
+        <div class="col-sm-10">
+          <input type="email" class="form-control" id="inputEmail3" />
+        </div>
+      </div>
+
+      <div class="row mb-3" style="margin-left: 1rem">
+        <label for="inputNumber3" class="col-sm-2 col-form-label" id="inp-label"
+          >Phone</label
+        >
+        <div class="col-sm-10">
+          <input type="number" class="form-control" id="inputNumber3" />
+        </div>
+      </div>
+
+      <div class="row mb-3" style="margin-left: 1rem">
+        <label
+          for="inputPassword3"
+          class="col-sm-2 col-form-label"
+          id="inp-label"
+          >Password</label
+        >
+        <div class="col-sm-10">
+          <input type="password" class="form-control" id="inputPassword3" />
+        </div>
+      </div>
+
+      <div class="form-floating" style="margin-left: 1rem">
+        <textarea
+          class="form-control"
+          placeholder="Leave a comment here"
+          id="floatingTextarea2"
+          style="height: 30vh; margin-left: 13rem; margin-bottom: 1rem"
+        ></textarea>
+        <label for="floatingTextarea2" id="inp-label">Comments</label>
+      </div>
+
+      <div class="row mb-3" style="margin-left: 1rem">
+        <div class="col-sm-10 offset-sm-2">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" id="gridCheck1" />
+            <label class="form-check-label" for="gridCheck1">
+              Subscribe to newsletter
+            </label>
+          </div>
+        </div>
+      </div>
+      <button type="submit" class="submit-btn">Submit</button>
+    </form>
+
+    <footer class="footer">
+      <div class="quick-l">
+        <h4>QUICK LINKS</h4>
+        <ul id="li">
+          <li>
+            <a style="text-decoration: none; color: #ed9390" href="index.html"
+              >Home</a
+            >
+          </li>
+          <li>
+            <a style="text-decoration: none; color: #ed9390" href="about.html"
+              >About Me</a
+            >
+          </li>
+          <li>
+            <a style="text-decoration: none; color: #ed9390" href="contact.html"
+              >Contact Me</a
+            >
+          </li>
+          <li>
+            <a
+              style="text-decoration: none; color: #ed9390"
+              href="b-preview.html"
+              >Blog posts</a
+            >
+          </li>
+        </ul>
+      </div>
+      <div class="account">
+        <h5>Sign In to recieve our newsletter:</h5>
+        <button><a href="signup.html">Sign Up</a></button>
+        <br />
+
+        <h5>Already have an account?</h5>
+        <button><a href="login.html">Login</a></button>
+      </div>
+
+      <div class="s-links">
+        <a
+          href="https://www.instagram.com/its.sagerose"
+          target="_blank"
+          rel="noopener noreferrer"
+          ><img width="5%" src="Images/instagram.jpg" alt=""
+        /></a>
+        <a
+          href="https://wa.me/+254715391726"
+          target="_blank"
+          rel="noopener noreferrer"
+          ><img width="4%" src="Images/whatsapp.png" alt=""
+        /></a>
+        <a
+          href="mailto:sagewaweru2005@gmail.com"
+          target="_blank"
+          rel="noopener noreferrer"
+          ><img width="5%" src="Images/gmail.jpg" alt=""
+        /></a>
+        <a
+          href="https://github.com/SageWaweru/My-p-website"
+          target="_blank"
+          rel="noopener noreferrer"
+          ><img width="4%" src="Images/github.png" alt=""
+        /></a>
+      </div>
+
+      <p>© 2024 Waweru Sage Rose Nkatha</p>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+      integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+      integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
