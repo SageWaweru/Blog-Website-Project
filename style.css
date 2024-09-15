@@ -43,14 +43,6 @@ li:hover{
     margin-top: 10rem;
 }
 
-/* .overlay-image-2{
-    background-image:url('Images/100-Brand-Templates-to-Inspire-Create-Professional-Branding-Thumbnail-1024x573.jpg') ;
-    height: 20rem;
-    width: 100vw;
-    position: fixed;
-    right: 0;
-
-} */
 
 .p-posts{
     margin-top: 5rem;
@@ -240,14 +232,12 @@ p{
 }
 
 section{
-    display: flex;
     flex-wrap: wrap;
     color: #005E76;
     background-color: rgba(252, 242, 230, 0.927);
     width:60vw;
     height: 77vh;
     border-radius: 1rem;
-    flex-direction: column;
 }
 
 #hello{
@@ -256,8 +246,8 @@ section{
 }
 
 section h3{
-  padding-top: 5rem;
-  padding-bottom: 2rem;
+  padding-top: 3rem;
+  padding-bottom: 1rem;
 
 }
 
